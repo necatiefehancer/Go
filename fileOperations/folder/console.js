@@ -1,0 +1,1 @@
+efehancer58(58); const arrowFunc = (params) => {console.log(params);};
