@@ -7,10 +7,10 @@ import (
 	"log"
 	"math/rand"
 	"myModules/concurrency"
-	fileoperations "myModules/fileOperations"
 	"myModules/functions"
 	"myModules/interfaces"
 	"myModules/utils"
+	xmlandjsonoperations "myModules/xmlAndJsonOperations"
 	"os"
 	"strconv"
 	"strings"
@@ -47,7 +47,7 @@ func main() {
 	// }()
 	// <-myChan
 
-	fileoperations.Demo10()
+	xmlandjsonoperations.Demo1()
 }
 
 func Concurrency() {
