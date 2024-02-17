@@ -1,5 +1,7 @@
 package xmlandjsonoperations
 
-func Demo2() {
+import "fmt"
 
+func Demo2() {
+	fmt.Println("")
 }
