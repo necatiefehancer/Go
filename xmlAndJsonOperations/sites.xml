@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sites version="1">
+<site>
+<Name>https://herasystem-9d7d8.web.app/</Name>
+<Description>Stok Takip Sistemi</Description>
+<Category>STOK SİSTEMLERİ</Category>
+</site>
+
+<site>
+<Name>https://student-system-63dab.web.app/</Name>
+<Description>Öğrenci Takip Sistemi</Description>
+<Category>OTS SİSTEMLERİ</Category>
+</site>
+
+
+<site>
+<Name>https://efehancer-23f94.web.app/</Name>
+<Description>Efe Hançer Tanıtım Sayfası</Description>
+<Category>TANITIM SAYFASI</Category>
+</site>
+
+</sites>
+

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
+	zipandtaroperations "myModules/ZipAndTarOperations"
 	"myModules/concurrency"
 	"myModules/functions"
 	"myModules/interfaces"
 	"myModules/utils"
-	xmlandjsonoperations "myModules/xmlAndJsonOperations"
 	"os"
 	"strconv"
 	"strings"
@@ -47,7 +47,9 @@ func main() {
 	// }()
 	// <-myChan
 
-	xmlandjsonoperations.Demo1()
+	// xmlandjsonoperations.Demo5()
+	// tcmb.Demo1()
+	zipandtaroperations.Demo2()
 }
 
 func Concurrency() {
