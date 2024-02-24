@@ -1,5 +1,18 @@
 package backendoperations
 
+import (
+	"fmt"
+	"net/http"
+)
+
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Merhaba %s", r.URL.Path[1:])
+}
+
 func Op1() {
+
+	http.HandleFunc("/", handler)
+	http.ListenAndServe(":9000", nil)
+	fmt.Println("web servver")
 
 }

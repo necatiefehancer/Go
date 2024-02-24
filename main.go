@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 	"math/rand"
-	zipandtaroperations "myModules/ZipAndTarOperations"
+	operation7 "myModules/BackendOperations/Operation7"
 	"myModules/concurrency"
 	"myModules/functions"
 	"myModules/interfaces"
@@ -49,7 +49,8 @@ func main() {
 
 	// xmlandjsonoperations.Demo5()
 	// tcmb.Demo1()
-	zipandtaroperations.Demo2()
+	// zipandtaroperations.Demo2()
+	operation7.Demo()
 }
 
 func Concurrency() {
